@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ochomanos.efimero" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Museo Efímero del Olvido</name>
+    <description>
+        Mapa interactivo del texto curatorial museo efímero del olvido 2015.
+    </description>
+    <author email="nicolaz@8manos.com" href="http://8manos.com">
+        8manos S.A.S.
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="true" />
+    <preference name="BackgroundColor" value="#E48CB8" />
+    <icon src="icon.png"/>
+    <icon src="www/img/android/drawable-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi"/>
+    <icon src="www/img/android/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi"/>
+    <icon src="www/img/android/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi"/>
+    <icon src="www/img/android/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi"/>
+    <icon src="www/img/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
+    <icon src="www/img/ios/icon-72.png" gap:platform="ios" width="72" height="72"/>
+    <icon src="www/img/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114"/>
+    <icon src="www/img/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
+</widget>
