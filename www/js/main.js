@@ -1,5 +1,9 @@
 
-	
+$('.effc').click(function(){
+    $('.mask').fadeOut();
+    $('#museo').addClass('hide');
+});
+
 $('.cerrar').click(function(){
 	$('.mask').fadeOut();
 	$('article').fadeOut();
@@ -54,7 +58,7 @@ $.fn.clicktoggle = function(a, b) {
     });
 	
 
-$('.mask').hide();
+//$('.mask').hide();
 $('#map .zona').on({
     mouseenter: function () {
     	$('#map .zona').not(this).attr('fill-opacity',0.5);

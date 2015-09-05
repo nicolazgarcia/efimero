@@ -8,7 +8,7 @@ body {
 	color:#1A1A1A;
 	background-color: #696C71;
 	font:normal 300 13px/1 'Apercu', 'Trebuchet MS', Arial, Helvetica, sans-serif;
-}
+} 
 #map {
 	position: fixed;
 	top: 0;
@@ -100,7 +100,8 @@ article h6 {
 	left: 0;
 	z-index: 1;
 }
-.cerrar {
+.cerrar,
+.effc {
 	width: 25px;
 	line-height: 25px;
 	position: absolute;
@@ -113,6 +114,62 @@ article h6 {
 	cursor: pointer;
 	z-index: 10;
 	font-family: 'icomoon';
+}
+em {
+	color: #696C71;
+	font-style: italic;
+}
+#museo {
+	font-size: 1.2em;
+	width: 60%;
+	padding: 20px;
+	position: absolute;
+	top: 60px;
+	left: 20%;
+	z-index: 10;
+	background: #FFF;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  	-webkit-transition: 0.52s linear all;
+	-moz-transition: 0.52s linear all;
+	-o-transition: 0.52s linear all;
+	-ms-transition: 0.52s linear all;
+	transition: 0.52s linear all;
+}
+#museo p {
+	padding: 0 2%;
+	margin-bottom: .8em;
+}
+#museo h1 {
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: .4em;
+	color: #E48CB8;
+}
+#museo h2 {
+	height: 0;
+	padding-top: 28px;
+	overflow: hidden;
+	background: url(i/regionales.png) no-repeat 50% 50%;
+	background-size: 209px;
+}
+#museo .contacto {
+	font-weight: bold;
+	font-size: .9em;
+	padding: 20px 2%;
+}
+#museo.hide {
+	width: 0;
+	overflow: hidden;
+	left: -100%;
+}
+.contacto a {
+	color: #E48CB8;
+}
+.contacto a:hover {
+	color: #696C71;
 }
 .tarjeta {
 	opacity: 0;
