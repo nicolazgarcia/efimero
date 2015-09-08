@@ -23,6 +23,7 @@ $('.pieza').each(function() {
 $('.volver').click(function() {
     $('.tipos li').removeClass('active');
     $('.tarjeta').removeClass('show');
+    $(this).html('olvidar <span class="arrow"></span>');
 });
 	
 $.fn.clicktoggle = function(a, b) {
